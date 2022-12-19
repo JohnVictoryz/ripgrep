@@ -1,7 +1,7 @@
 build-job:
   stage: build
   script:
-    - apt install go -y
+    - sudo apt install go -y
     - go build src/main.go
 
 
