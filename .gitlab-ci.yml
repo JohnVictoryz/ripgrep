@@ -1,0 +1,17 @@
+build-job:
+  stage: build
+  script:
+    - go build src/main.go
+
+test-job1:
+  stage: test
+  script:
+    - go run src/main.go
+
+test-job2:
+  stage: test
+  script:
+    - go run src/main.go
+    - go run src/main.go --download
+    - go run src/main.go --file
+    - sleep 20
