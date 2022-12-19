@@ -9,7 +9,7 @@ import (
 
 func main() {
       args := os.Args[1:]
-      fmt.Println(args[2])
+      fmt.Println(args[2:])
 
 
 }
