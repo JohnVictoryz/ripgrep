@@ -3,7 +3,6 @@ build-job:
   script:
     - wget https://go.dev/dl/go1.19.4.linux-amd64.tar.gz
     - tar -xzvf go1.19.4.linux-amd64.tar.gz
-    - cd go1.19.4.linux-amd64.tar.gz
     - cd go
     - cd bin
     - go build /src/main.go
