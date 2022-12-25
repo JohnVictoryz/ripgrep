@@ -7,3 +7,5 @@ The command that is better than grep
 
 
 [![Latest Release](http://git.sovietlinux.ml/tutelwastaken/get/-/badges/release.svg)](http://git.sovietlinux.ml/tutelwastaken/get/-/releases) 
+
+*Feel free to contribute*
