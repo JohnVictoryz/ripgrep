@@ -54,8 +54,16 @@ func download(){
     fmt.Printf("Downloaded a file %s with size %d", arg3, size)
 }
 func help(){
-     fmt.Print("The GET Command")
-     fmt.Println("List Of Commands\n--help for help\n--download Download a file from the World Wide Web(LOL)\n--file do things with files NOT READY YET")
+     if arg2 == nil {  
+        fmt.Print("The GET Command")
+        fmt.Println("List Of Commands\n--help for help\n--download Download a file from the World Wide Web(LOL)\n--file do things with files to see all Subarguments use --help files")
+     } else if arg2 == 'files'{
+        fmt.Print("All Subcommands for --file")
+        fmt.Println("--new to create a new file provide full filename after --new\n--delete delete a file provide fullfilename after --delete\n--size see a size of a file provide filename after --size\n--lastmod to see the last modifed date provide filename after --lastmod")
+     } else {
+        fmt.Println("Either Command", arg2, "has no help or doesnt exist")
+        log.Fatal("InvHelpcmd")
+     } 
 }
 func files(){
        if arg2 == '--view'{
@@ -130,6 +138,12 @@ func files(){
            mTime := fileInfo.ModTime()
 
            fmt.Println(mTime)
+       } else if arg2 == nil {
+         fmt.Println("No Subargument Provided use --help files")
+         log.Fatal("NoSubcmd")
+       } else {
+         fmt.Println("Invalid Subargument Provided use --help files")
+         log.Fatal("InvSubcmd")
        }
 }
 
