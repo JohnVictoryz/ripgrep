@@ -55,7 +55,7 @@ func download(){
 }
 func help(){
      if arg2 == nil {  
-        fmt.Print("The GET Command")
+        fmt.Print("The RG command aka ripgrep command")
         fmt.Println("List Of Commands\n--help for help\n--download Download a file from the World Wide Web(LOL)\n--file do things with files to see all Subarguments use --help files")
      } else if arg2 == 'files'{
         fmt.Print("All Subcommands for --file")

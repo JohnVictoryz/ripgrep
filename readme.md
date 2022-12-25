@@ -1,6 +1,7 @@
-# Get Everything with one command
+# RG aka ripgrep
 
-The command that can actully get you something
+The command that is better than grep
+*Also if you have a better slogan pls let me know*
 
 [![coverage report](http://git.sovietlinux.ml/tutelwastaken/get/badges/main/coverage.svg)](http://git.sovietlinux.ml/tutelwastaken/get/-/commits/main)
 
