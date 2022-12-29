@@ -1,6 +1,7 @@
 # RG aka ripgrep
 
 The command that is better than grep\
+Cross Platform File tools and downloader(like wget)\
 *Also if you have a better slogan pls let me know*
 
 
