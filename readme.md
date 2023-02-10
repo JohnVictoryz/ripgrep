@@ -63,9 +63,9 @@ Here is the trickey part you see git for windows has an emulated MINGW terminal 
 ### All OS:
 Click the button that says code and download it as a zip and unzip it
 ### Build:
-Go to the dir you cloned or unziped the repo and cd or go to src and type in a terminal or command promt ``` go built main.go ```
+Go to the dir you cloned or unziped the repo and cd or go to src and type in a terminal or command promt ``` go build main.go ```
 ### Run:
-The same but type instead of ``` go build main.go ``` ``` go run main.go ```\
+The same but type instead of ``` go build main.go ``` ``` go run main.go ```
 
 *Feel free to contribute*\
 *Started originaly by me: JohnVictoryz aka tutel for the Soviet Linux project*
