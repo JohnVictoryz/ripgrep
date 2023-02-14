@@ -32,7 +32,7 @@ Download the the .pkg and install it
 ## BUILDING
 First all of the instructions are pretty much the same so its not a problem\
 Optional Software: git\
-Needed Software: go\
+Needed Software: go
 ### Install git
 ### Debian/Ubuntu
 ```
